@@ -41,7 +41,7 @@ export default function HeroSection({ onNavigate }) {
         </h1>
 
         <p className="hero-sub">
-          Senior at <em>UIUC</em> · Exploring the cosmos of code
+          Computer Science Senior at <em>UIUC</em> · President of B[U]ILT by ColorStack
         </p>
 
         <div className="hero-btns">
@@ -51,11 +51,6 @@ export default function HeroSection({ onNavigate }) {
           <button type="button" className="btn btn-outline" onClick={() => onNavigate('projects')}>
             View Projects
           </button>
-        </div>
-
-        <div className="explore-hint" style={{ marginTop: '3rem', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '.5rem' }}>
-          <div className="explore-line" />
-          <span className="explore-txt">explore</span>
         </div>
       </div>
     </div>

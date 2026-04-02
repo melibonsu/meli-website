@@ -21,6 +21,21 @@ function LinkedInIcon() {
   )
 }
 
+function IllinoisIcon() {
+  return (
+    <svg viewBox="0 0 24 24" fill="currentColor">
+      <image
+        href="images/illinois.png"
+        x="0"
+        y="0"
+        width="24"
+        height="24"
+      />
+      <circle cx="4" cy="4" r="2" />
+    </svg>
+  )
+}
+
 function GitHubIcon() {
   return (
     <svg viewBox="0 0 24 24" fill="currentColor">
@@ -33,7 +48,7 @@ export default function Navbar({ currentPage, onNavigate }) {
   return (
     <nav>
       <button type="button" className="nav-logo" data-page="home" onClick={() => onNavigate('home')}>
-        M<em>.</em>AB
+        <a href="#"><img src="images/name_logo.png" style={{ width: "150px", height: "auto" }} alt=""></img></a>
       </button>
 
       <ul className="nav-links">
@@ -57,6 +72,9 @@ export default function Navbar({ currentPage, onNavigate }) {
         </a>
         <a href={socialLinks.linkedin} className="icon-btn" title="LinkedIn" aria-label="LinkedIn">
           <LinkedInIcon />
+        </a>
+        <a href={socialLinks.illinois} className="icon-btn" title="Illinois" aria-label="Illinois">
+          <IllinoisIcon />
         </a>
         <a href={socialLinks.github} className="icon-btn" title="GitHub" aria-label="GitHub">
           <GitHubIcon />

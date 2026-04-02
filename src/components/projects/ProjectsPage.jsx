@@ -9,7 +9,6 @@ export default function ProjectsPage({ className }) {
   return (
     <section className={className} id="page-projects">
       <div className="proj-header">
-        <p className="sec-label reveal">✦ Launchpad</p>
         <h2 className="sec-title reveal d1">
           My <span className="pk">Projects</span>
         </h2>
