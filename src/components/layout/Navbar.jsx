@@ -25,7 +25,7 @@ function IllinoisIcon() {
   return (
     <svg viewBox="0 0 24 24" fill="currentColor">
       <image
-        href="images/illinois.png"
+        href="/images/illinois.png"
         x="0"
         y="0"
         width="24"
@@ -48,7 +48,7 @@ export default function Navbar({ currentPage, onNavigate }) {
   return (
     <nav>
       <button type="button" className="nav-logo" data-page="home" onClick={() => onNavigate('home')}>
-        <a href="#"><img src="images/name_logo.png" style={{ width: "150px", height: "auto" }} alt=""></img></a>
+        <a href="#"><img src="/images/name_logo.png" style={{ width: "150px", height: "auto" }} alt=""></img></a>
       </button>
 
       <ul className="nav-links">

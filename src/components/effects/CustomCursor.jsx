@@ -9,7 +9,7 @@ export default function CustomCursor() {
         className={`cursor ${isHovering ? 'hov' : ''}`}
         style={{ left: `${position.x}px`, top: `${position.y}px` }}
       >
-        <img src="images/flower.png" alt="" />
+        <img src="/images/flower.png" alt="" />
       </div>
 
       <div

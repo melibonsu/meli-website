@@ -8,7 +8,7 @@ export default function OrbitAvatar() {
 
       <div className="avatar-frame">
         <div className="avatar-placeholder" aria-label="Avatar placeholder">
-          <img src = "images/headshot1.jpg"></img>
+          <img src = "/images/headshot1.jpg"></img>
         </div>
       </div>
 
